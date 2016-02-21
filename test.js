@@ -4,6 +4,7 @@ var text = 'This document describes how to query the Sentigem Sentiment Analysis
 
 senlp.getSentiment(text, function (err, response) {
   if (!err) {
+    // response is -1 if negative, 1 is positive, 0 if neutral
     console.log(response);
   }
 });
