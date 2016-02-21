@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/muntashir/SeNLP#readme",
   "dependencies": {
-    "word2vec": "^0.9.2"
+    "request": "^2.69.0"
   }
 }
